@@ -1,4 +1,4 @@
-const girlfriendName = " Marti Farroohaa";
+const girlfriendName = " Marti Farroohaaa";
 const imagePath = "me.her.png";
 
 const stubbornYesText = "Silly 🙄, choose yes..";
