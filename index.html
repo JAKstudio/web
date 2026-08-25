@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>A Little Surprise For You 🩵</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="sky" aria-hidden="true">
+      <span class="float f1">🌸</span>
+      <span class="float f2">💙</span>
+      <span class="float f3">🌷</span>
+      <span class="float f4">✨</span>
+      <span class="float f5">🌸</span>
+      <span class="float f6">🤍</span>
+      <span class="float f7">💠</span>
+      <span class="float f8">🌸</span>
+      <span class="float f9">✨</span>
+      <span class="float f10">💗</span>
+    </div>
+
+    
+   
+    <main class="stage">
+      <section class="screen active" id="screen1">
+        <div class="photo-wrap">
+          <span class="petal p1">🌸</span>
+          <span class="petal p2">🌷</span>
+          <span class="petal p3">✨</span>
+          <span class="petal p4">💙</span>
+          <img id="photo" class="photo" src="me.her.png" alt="My love" />
+        </div>
+
+        <div class="card">
+          <h1 class="title" id="q1">Are you ready for your surprise? 🩵</h1>
+          <p class="hello">Hi <span id="name1"></span> 💐</p>
+          <div class="btn-row">
+            <button class="btn yes" data-next="screen2">YES 💙</button>
+            <button class="btn no runaway">NO 🙄</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="screen" id="screen2">
+        <div class="card">
+          <p class="small">Okay... one important question... 🥺</p>
+          <h1 class="title">Do you love me? 🌸</h1>
+          <div class="btn-row">
+            <button class="btn yes" data-next="screen3">YES 💙</button>
+            <button class="btn no runaway">NO 🙄</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="screen dramatic" id="screen3">
+        <div class="glow-orb" aria-hidden="true"></div>
+        <div class="card">
+          <p class="small">One last thing... 🥺</p>
+          <h1 class="title">Do you want to see your surprise message? 💌</h1>
+          <div class="btn-row">
+            <button class="btn yes" id="finalYes" data-next="screen4">YES 💙</button>
+            <button class="btn no" id="finalNo">NO 🙄</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="screen" id="screen4">
+        <p class="small">There's something I want you to read... 💌</p>
+        <p class="hint">Click the envelope</p>
+
+        <div class="envelope" id="envelope">
+          <span class="env-flower e1">🌸</span>
+          <span class="env-flower e2">🌷</span>
+          <span class="env-flower e3">🌸</span>
+
+          <div class="env-back"></div>
+          <div class="paper">
+            <p class="paper-mini">💙</p>
+          </div>
+          <div class="env-front"></div>
+          <div class="env-flap"></div>
+          <div class="seal">❤</div>
+        </div>
+      </section>
+
+      <section class="screen" id="screen5">
+        <div class="letter">
+          <span class="corner tl">🌸</span>
+          <span class="corner tr">💙</span>
+          <span class="corner bl">🌷</span>
+          <span class="corner br">🤍</span>
+
+          <h2 class="letter-title">To my <span id="name2"></span> 💌</h2>
+          <div class="letter-text" id="letterText"></div>
+          <p class="signature">Forever yours 💙</p>
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
